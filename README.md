@@ -8,24 +8,27 @@ The repository provides sample multi-level security audit reports.
 📂 reports/
 ├── 🛠 technical/
 │   ├── 🇷🇺 ru/ → Технический отчет
-│   └── 🇬🇧 en/ → Technical Report
+│   ├── 🇬🇧 en/ → Technical Report
+│   └── 🇸🇦 ar/ → التقرير الفني
 ├── 📋 management/
 │   ├── 🇷🇺 ru/ → Менеджерский отчет
-│   └── 🇬🇧 en/ → Management Report
+│   ├── 🇬🇧 en/ → Management Report
+│   └── 🇸🇦 ar/ → تقرير الإدارة
 └── 🏛 executive/
     ├── 🇷🇺 ru/ → Отчет для топ-менеджмента
-    └── 🇬🇧 en/ → Executive Report
+    ├── 🇬🇧 en/ → Executive Report
+    └── 🇸🇦 ar/ → تقرير الإدارة العليا
+
 ```
-
-
 
 ## 🧭 Навигация / Navigation
 
-| Уровень отчета |             Русский         |         English               |
-|----------------|-----------------------------|-------------------------------|
-| Технический    | [ru](reports/technical/ru/) | [en](reports/technical/en/)   |
-| Менеджерский   | [ru](reports/management/ru/)|  [en](reports/management/en/) |
-| Executive      | [ru](reports/executive/ru/) | [en](reports/executive/en/)   |
+| Уровень отчета | Русский | English | العربية |
+|----------------|---------|---------|---------|
+| Technical    | [ru](reports/technical/ru/) | [en](reports/technical/en/) | [ar](reports/technical/ar/) |
+| Mnagement   | [ru](reports/management/ru/) | [en](reports/management/en/) | [ar](reports/management/ar/) |
+| Executive      | [ru](reports/executive/ru/) | [en](reports/executive/en/) | [ar](reports/executive/ar/) |
+
 
 ## 🎯 Цель / Purpose
 
