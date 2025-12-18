@@ -1,0 +1,11 @@
+# 📋 Management Security Audit Report / Менеджерский отчет по аудиту безопасности
+
+## EN
+This folder contains sample **management-level security audit reports**.  
+They are intended for IT/security managers and project leads.  
+Focus: risk matrix, prioritization (P0–P3), compliance references, and timelines.
+
+## RU
+Эта папка содержит примеры **менеджерских отчетов по аудиту безопасности**.  
+Они предназначены для руководителей отделов ИТ/безопасности и project managers.  
+Фокус: матрица рисков, приоритизация (P0–P3), ссылки на стандарты и сроки устранения.
