@@ -1,2 +1,43 @@
-# SergMorelli-security-audit-report-samples
-Sample multi-level security audit reports (Technical, Management, Executive) in Russian and English.  This repository demonstrates how to prepare reports tailored for different audiences: engineers, mid-level managers, and executives.
+# Security Audit Report Samples / Образцы отчетов по аудиту безопасности
+
+Этот репозиторий содержит примеры многоуровневой отчетности по результатам аудита безопасности.  
+The repository provides sample multi-level security audit reports.
+
+## 📊 Структура / Structure
+```
+📂 reports/
+├── 🛠 technical/
+│   ├── 🇷🇺 ru/ → Технический отчет
+│   └── 🇬🇧 en/ → Technical Report
+├── 📋 management/
+│   ├── 🇷🇺 ru/ → Менеджерский отчет
+│   └── 🇬🇧 en/ → Management Report
+└── 🏛 executive/
+├── 🇷🇺 ru/ → Отчет для топ-менеджмента
+└── 🇬🇧 en/ → Executive Report
+```
+
+
+
+## 🧭 Навигация / Navigation
+
+| Уровень отчета |             Русский         |         English               |
+|----------------|-----------------------------|-------------------------------|
+| Технический    | [ru](reports/technical/ru/) | [en](reports/technical/en/)   |
+| Менеджерский   | [ru](reports/management/ru/)|  [en](reports/management/en/) |
+| Executive      | [ru](reports/executive/ru/) | [en](reports/executive/en/)   |
+
+## 🎯 Цель / Purpose
+
+- **RU:** Показать, как можно готовить отчеты для разных аудиторий: инженеров, менеджеров и топ-менеджмента.  
+- **EN:** Demonstrate how to prepare reports for different audiences: engineers, managers, and executives.
+
+  📌 How to use / Как использовать
+- RU: Используйте отчеты как шаблоны для подготовки собственных аудитов.
+- EN: Use these reports as templates for preparing your own audits.
+
+
+## ⚠️ Disclaimer / Дисклеймер
+
+- **RU:** Все данные обезличены и приведены исключительно для демонстрации структуры аудита.  
+- **EN:** All data is sanitized and provided solely for demonstration purposes.
