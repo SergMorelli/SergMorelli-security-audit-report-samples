@@ -32,7 +32,7 @@ The repository provides sample multi-level security audit reports.
 - **RU:** Показать, как можно готовить отчеты для разных аудиторий: инженеров, менеджеров и топ-менеджмента.  
 - **EN:** Demonstrate how to prepare reports for different audiences: engineers, managers, and executives.
 
-##📌 How to use / Как использовать
+## 📌 How to use / Как использовать
 
 - RU: Используйте отчеты как шаблоны для подготовки собственных аудитов.
 - EN: Use these reports as templates for preparing your own audits.
