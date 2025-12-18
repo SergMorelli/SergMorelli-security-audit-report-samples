@@ -1,4 +1,4 @@
-# 🏛 Executive Security Audit Report / Отчет для топ-менеджмента
+# 🏛 Executive Security Audit Report 
 
 ## EN
 This folder contains sample **executive-level security audit reports**.  
