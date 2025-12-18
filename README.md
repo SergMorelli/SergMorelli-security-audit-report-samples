@@ -27,9 +27,9 @@ The repository provides sample multi-level security audit reports.
 
 | Уровень отчета | Русский | English | العربية |
 |----------------|---------|---------|---------|
-| Technical    | [ru](reports/technical/ru/) | [en](reports/technical/en/) | [ar](reports/technical/ar/) |
-| Management   | [ru](reports/management/ru/) | [en](reports/management/en/) | [ar](reports/management/ar/) |
-| Executive      | [ru](reports/executive/ru/) | [en](reports/executive/en/) | [ar](reports/executive/ar/) |
+| 🛠 [Technical](reports/technical/)   | [ru](reports/technical/ru/) | [en](reports/technical/en/) | [ar](reports/technical/ar/) |
+| 📋 [Management](reports/management/) | [ru](reports/management/ru/) | [en](reports/management/en/) | [ar](reports/management/ar/) |
+| 🏛 [Executive](reports/executive/)   | [ru](reports/executive/ru/) | [en](reports/executive/en/) | [ar](reports/executive/ar/) |
 
 
 ## 🎯 Цель / Purpose / الهدف
