@@ -13,8 +13,8 @@ The repository provides sample multi-level security audit reports.
 │   ├── 🇷🇺 ru/ → Менеджерский отчет
 │   └── 🇬🇧 en/ → Management Report
 └── 🏛 executive/
-├── 🇷🇺 ru/ → Отчет для топ-менеджмента
-└── 🇬🇧 en/ → Executive Report
+    ├── 🇷🇺 ru/ → Отчет для топ-менеджмента
+    └── 🇬🇧 en/ → Executive Report
 ```
 
 
