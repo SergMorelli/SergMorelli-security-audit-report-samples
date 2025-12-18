@@ -1,4 +1,4 @@
-# 🛠 Technical Security Audit Report / Технический отчет по аудиту безопасности
+# 🛠 Technical Security Audit Report 
 
 ## EN
 This folder contains sample **technical-level security audit reports**.  
