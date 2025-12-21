@@ -70,7 +70,7 @@ It includes:
 ---
 
 # 🛠 Reports / Отчёты / التقارير
-<section id="reports">
+<a id="reports"></a>
 
 ## Technical Reports
 - 🇷🇺 [RU](reports/technical/ru/)
@@ -87,18 +87,16 @@ It includes:
 - 🇬🇧 [EN](reports/executive/en/)
 - 🇸🇦 [AR](reports/executive/ar/)
 
-</section>
 
 ---
 
 # 📘 Whitepapers / Вводные документы / الورقات التعريفية
-<section id="whitepapers">
+<a id="whitepapers"></a>
 
 - 🇷🇺 [RU](📘%20whitepaper/ru/)
 - 🇬🇧 [EN](📘%20whitepaper/en/)
 - 🇸🇦 [AR](📘%20whitepaper/ar/)
 
-</section>
 
 ---
 
@@ -113,9 +111,4 @@ UAE / EU
 
 
 
-<footer>
-    © 2025 DataDef — Cybersecurity & Risk Management  
-    UAE / EU  
-    <br>
-    <a href="https://datadef.ae">datadef.ae</a>
-</footer>
+
