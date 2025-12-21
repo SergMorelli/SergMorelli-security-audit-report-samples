@@ -1,22 +1,25 @@
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+
 ---
 layout: default
 ---
 
 <link rel="stylesheet" href="/assets/css/style.css">
+
 <nav class="navbar">
   <div class="nav-container">
-    <div class="nav-logo">navigation </div>
+    <div class="nav-logo">Local Navigation</div>
     <ul class="nav-links">
       <li><a href="/">Home</a></li>
       <li><a href="#reports">Reports</a></li>
       <li><a href="#whitepapers">Whitepapers</a></li>
-      <li><a href="#roe">RoE</a></li>
-      <li><a href="https://datadef.ae" target="_blank">DataDef</a></li>
     </ul>
   </div>
 </nav>
 
 <div class="nav-spacer"></div>
+
+<div class="container">
 
 # 🔐 Security Audit Report Samples  
 ### Multilingual RU / EN / AR  
@@ -83,6 +86,39 @@ It includes:
 
 ---
 
+# 🛠 Reports / Отчёты / التقارير
+<section id="reports">
+
+## Technical Reports
+- 🇷🇺 [RU](reports/technical/ru/)
+- 🇬🇧 [EN](reports/technical/en/)
+- 🇸🇦 [AR](reports/technical/ar/)
+
+## Management Reports
+- 🇷🇺 [RU](reports/management/ru/)
+- 🇬🇧 [EN](reports/management/en/)
+- 🇸🇦 [AR](reports/management/ar/)
+
+## Executive Reports
+- 🇷🇺 [RU](reports/executive/ru/)
+- 🇬🇧 [EN](reports/executive/en/)
+- 🇸🇦 [AR](reports/executive/ar/)
+
+</section>
+
+---
+
+# 📘 Whitepapers / Вводные документы / الورقات التعريفية
+<section id="whitepapers">
+
+- 🇷🇺 [RU](📘%20whitepaper/ru/)
+- 🇬🇧 [EN](📘%20whitepaper/en/)
+- 🇸🇦 [AR](📘%20whitepaper/ar/)
+
+</section>
+
+---
+
 # ✅ Author / Автор / المؤلف
 
 ## 🇬🇧 EN
@@ -90,10 +126,13 @@ It includes:
 Vulnerability Management Specialist  
 UAE / EU
 
+
+
+</div>
+
 <footer>
     © 2025 DataDef — Cybersecurity & Risk Management  
     UAE / EU  
     <br>
     <a href="https://datadef.ae">datadef.ae</a>
 </footer>
-
