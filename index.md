@@ -2,23 +2,7 @@
 layout: default
 ---
 
-<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
 
-<link rel="stylesheet" href="/assets/css/style.css">
-<nav class="navbar">
-  <div class="nav-container">
-    <div class="nav-logo">Local Navigation</div>
-    <ul class="nav-links">
-      <li><a href="/">Home</a></li>
-      <li><a href="#reports">Reports</a></li>
-      <li><a href="#whitepapers">Whitepapers</a></li>
-    </ul>
-  </div>
-</nav>
-
-<div class="nav-spacer"></div>
-
-<div class="container">
 
 # 🔐 Security Audit Report Samples  
 ### Multilingual RU / EN / AR  
