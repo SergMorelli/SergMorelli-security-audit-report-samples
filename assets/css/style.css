@@ -1,0 +1,65 @@
+/* === Cyberpunk Dark Theme Override === */
+
+/* Фон сайта */
+body {
+    background-color: #0a0f1f !important; /* глубокий тёмно-синий */
+    color: #d0e7ff !important; /* мягкий голубой текст */
+    font-family: "JetBrains Mono", "Fira Code", monospace;
+}
+
+/* Ссылки */
+a {
+    color: #00eaff !important; /* неоновый голубой */
+    text-shadow: 0 0 8px #00eaff;
+}
+
+a:hover {
+    color: #ff00ff !important; /* неоновый фиолетовый */
+    text-shadow: 0 0 12px #ff00ff;
+}
+
+/* Заголовки */
+h1, h2, h3, h4 {
+    color: #7df9ff !important;
+    text-shadow: 0 0 10px #00eaff;
+}
+
+/* Блоки кода */
+pre, code {
+    background-color: #0d1226 !important;
+    border: 1px solid #1f2a48 !important;
+    color: #9be7ff !important;
+}
+
+/* Таблицы */
+table {
+    border: 1px solid #1f2a48 !important;
+}
+
+th {
+    background-color: #111a33 !important;
+    color: #7df9ff !important;
+}
+
+td {
+    background-color: #0d1226 !important;
+    color: #d0e7ff !important;
+}
+
+/* Навигация */
+nav {
+    background-color: #0d1226 !important;
+    border-bottom: 1px solid #1f2a48 !important;
+}
+
+/* Контейнеры */
+.container {
+    background-color: #0a0f1f !important;
+}
+
+/* Неоновая рамка вокруг секций */
+section {
+    border-left: 3px solid #00eaff;
+    padding-left: 15px;
+    margin-bottom: 25px;
+}
