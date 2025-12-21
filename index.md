@@ -111,7 +111,7 @@ UAE / EU
 
 
 
-</div>
+
 
 <footer>
     © 2025 DataDef — Cybersecurity & Risk Management  
