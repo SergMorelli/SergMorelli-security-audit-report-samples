@@ -15,20 +15,38 @@ These documents help auditors understand the system, responsibilities, and const
 ---
 
 ## 📁 Files
-- 🇷🇺 [White Paper (RU)](ru/whitepaper-ru.docx)
-- 🇬🇧 [White Paper (EN)](en/whitepaper-en.docx)
-- 🇸🇦 [White Paper (AR)](ar/whitepaper-ar.docx)
+- 🇷🇺  White Paper RU  [.doc](ru/whitepaper-ru.docx)  /  [.pdf](ru/whitepaper-ru.pdf)
+- 🇬🇧  White Paper EN  [.doc](ru/whitepaper-en.docx)  /  [.pdf](ru/whitepaper-en.pdf)
+- 🇸🇦  White Paper AR  [.doc](ru/whitepaper-ar.docx)  /  [.pdf](ru/whitepaper-ar.pdf)
 
 ---
 
 ## 📌 Purpose / Назначение / الهدف
 
+### EN
 - Define system ownership and responsibilities  
 - Establish scope and boundaries  
 - Describe allowed and prohibited testing activities  
 - Provide emergency contacts and escalation rules  
 - Ensure legal and operational safety  
 - Align expectations between the organization and the testing team  
+
+### RU
+- Определить владельцев системы и зоны ответственности  
+- Установить область аудита и границы тестирования  
+- Описать разрешённые и запрещённые виды тестирования  
+- Указать экстренные контакты и правила эскалации  
+- Обеспечить юридическую и операционную безопасность  
+- Согласовать ожидания между организацией и командой тестирования  
+
+### AR
+- تحديد مالكي النظام ومسؤولياتهم  
+- وضع نطاق العمل والحدود التشغيلية  
+- وصف الأنشطة المسموح بها والممنوعة أثناء الاختبار  
+- توفير جهات الاتصال الطارئة وقواعد التصعيد  
+- ضمان السلامة القانونية والتشغيلية  
+- مواءمة التوقعات بين المؤسسة وفريق الاختبار  
+
 
 ---
 
@@ -37,12 +55,12 @@ These documents help auditors understand the system, responsibilities, and const
 📘 whitepaper/
 ├── 🇷🇺 ru/
 │   ├── whitepaper-ru.docx
-│   └── whitepaper-ru.docx
+│   └── whitepaper-ru.pdf
 ├── 🇬🇧 en/
 │   ├── whitepaper-en.docx
-│   └── whitepaper-ru.docx
+│   └── whitepaper-en.pdf
 └── 🇸🇦 ar/
     ├── whitepaper-ar.docx
-    └── whitepaper-ru.docx
+    └── whitepaper-ar.pdf
 
 ```
