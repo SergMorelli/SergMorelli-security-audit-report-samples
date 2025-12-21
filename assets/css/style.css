@@ -1,65 +1,124 @@
-/* === Cyberpunk Dark Theme Override === */
+/* === DATADEF CYBERPUNK DARK THEME === */
 
-/* Фон сайта */
+/* Фон сайта — глубокий тёмно-синий */
 body {
-    background-color: #0a0f1f !important; /* глубокий тёмно-синий */
-    color: #d0e7ff !important; /* мягкий голубой текст */
+    background-color: #05070d;
+    color: #d6eaff;
     font-family: "JetBrains Mono", "Fira Code", monospace;
+    margin: 0;
+    padding: 0;
 }
 
-/* Ссылки */
+/* === Фон-сетка (grid) === */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:
+        linear-gradient(rgba(0, 255, 255, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 255, 255, 0.05) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* === Эффект сканирующего луча === */
+body::after {
+    content: "";
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        rgba(0, 255, 255, 0) 0%,
+        rgba(0, 255, 255, 0.15) 50%,
+        rgba(0, 255, 255, 0) 100%
+    );
+    animation: scan 6s linear infinite;
+    pointer-events: none;
+    z-index: 1;
+}
+
+@keyframes scan {
+    0% { top: -100%; }
+    100% { top: 100%; }
+}
+
+/* === Анимированные заголовки === */
+h1, h2, h3 {
+    color: #7df9ff;
+    text-shadow: 0 0 12px #00eaff;
+    animation: glow 3s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from { text-shadow: 0 0 6px #00eaff; }
+    to   { text-shadow: 0 0 18px #00eaff; }
+}
+
+/* === Ссылки === */
 a {
-    color: #00eaff !important; /* неоновый голубой */
+    color: #00eaff;
     text-shadow: 0 0 8px #00eaff;
+    transition: 0.2s;
 }
 
 a:hover {
-    color: #ff00ff !important; /* неоновый фиолетовый */
+    color: #ff00ff;
     text-shadow: 0 0 12px #ff00ff;
 }
 
-/* Заголовки */
-h1, h2, h3, h4 {
-    color: #7df9ff !important;
-    text-shadow: 0 0 10px #00eaff;
+/* === Киберпанк-рамки секций === */
+section {
+    border-left: 3px solid #00eaff;
+    padding-left: 20px;
+    margin: 30px 0;
 }
 
-/* Блоки кода */
-pre, code {
-    background-color: #0d1226 !important;
-    border: 1px solid #1f2a48 !important;
-    color: #9be7ff !important;
-}
-
-/* Таблицы */
+/* === Таблицы === */
 table {
-    border: 1px solid #1f2a48 !important;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #1f2a48;
+    padding: 10px;
 }
 
 th {
-    background-color: #111a33 !important;
-    color: #7df9ff !important;
+    background-color: #0d1226;
+    color: #7df9ff;
 }
 
 td {
-    background-color: #0d1226 !important;
-    color: #d0e7ff !important;
+    background-color: #05070d;
+    color: #d6eaff;
 }
 
-/* Навигация */
-nav {
-    background-color: #0d1226 !important;
-    border-bottom: 1px solid #1f2a48 !important;
+/* === Градиентные линии === */
+.hr-gradient {
+    height: 2px;
+    background: linear-gradient(90deg, #00eaff, #ff00ff);
+    margin: 40px 0;
 }
 
-/* Контейнеры */
-.container {
-    background-color: #0a0f1f !important;
+/* === Тёмный футер === */
+footer {
+    background: #02040a;
+    border-top: 1px solid #0d1226;
+    padding: 20px;
+    text-align: center;
+    color: #7df9ff;
+    margin-top: 40px;
+    font-size: 14px;
 }
 
-/* Неоновая рамка вокруг секций */
-section {
-    border-left: 3px solid #00eaff;
-    padding-left: 15px;
-    margin-bottom: 25px;
+footer a {
+    color: #00eaff;
 }
