@@ -1,3 +1,9 @@
+---
+layout: default
+---
+
+<link rel="stylesheet" href="/assets/css/style.css">
+
 # 🔐 Security Audit Report Samples  
 ### Multilingual RU / EN / AR  
 ### Reports • Whitepapers • Rules of Engagement
