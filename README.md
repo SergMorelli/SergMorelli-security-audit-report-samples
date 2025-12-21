@@ -40,7 +40,7 @@ The repository provides sample multi-level security audit reports.
 
 |    Document   | Русский | English | العربية |
 |----------------|---------|---------|---------|
-| [White Paper](📘whitepaper/) |[RU](📘whitepaper/ru/)  |[EN ](📘whitepaper/en/) |[AR](📘whitepaper/ar/)
+| [White Paper](📘%20whitepaper/) |[RU](📘%20whitepaper/ru/)  |[EN ](📘%20whitepaper/en/) |[AR](📘%20whitepaper/ar/)
 
 ## 🎯 Цель / Purpose / الهدف
 
