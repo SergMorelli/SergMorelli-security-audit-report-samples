@@ -1,8 +1,7 @@
-
-
 ---
 layout: default
 ---
+
 <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
 <link rel="stylesheet" href="/assets/css/style.css">
 
