@@ -1,5 +1,6 @@
 title: "Security Audit Report Samples"
 description: "Multilingual RU/EN/AR security audit reports, whitepapers, and Rules of Engagement"
+baseurl: "/SergMorelli-security-audit-report-samples"
 
 markdown: kramdown
 plugins:
