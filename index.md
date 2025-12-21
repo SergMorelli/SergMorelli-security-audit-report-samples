@@ -5,12 +5,12 @@ layout: default
 <link rel="stylesheet" href="/assets/css/style.css">
 <nav class="navbar">
   <div class="nav-container">
-    <div class="nav-logo">DataDef</div>
+    <div class="nav-logo">navigation </div>
     <ul class="nav-links">
       <li><a href="/">Home</a></li>
-      <li><a href="#reports">Reports</a></li>
-      <li><a href="#whitepapers">Whitepapers</a></li>
-      <li><a href="#roe">RoE</a></li>
+      <li><a href="reports">Reports</a></li>
+      <li><a href="whitepapers">Whitepapers</a></li>
+      <li><a href="roe">RoE</a></li>
       <li><a href="https://datadef.ae" target="_blank">DataDef</a></li>
     </ul>
   </div>
