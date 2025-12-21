@@ -2,9 +2,9 @@
 layout: default
 ---
 
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
 
 <link rel="stylesheet" href="/assets/css/style.css">
-<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
 <nav class="navbar">
   <div class="nav-container">
     <div class="nav-logo">Local Navigation</div>
