@@ -5,4 +5,6 @@
 Они предназначены для CEO, CTO, CISO и совета директоров.  
 Фокус: бизнес-риски, финансовые последствия, ROI от инвестиций в безопасность и стратегические KPI.
 ## Файлы 
-[PDF](/executive-report-ru.pdf)
+- [PDF](/executive-report-ru.pdf)
+
+- [DOCX](/executive-report-ru.docx)
