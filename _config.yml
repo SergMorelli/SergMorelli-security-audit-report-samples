@@ -1,9 +1,8 @@
 title: "Security Audit Report Samples"
 description: "Multilingual RU/EN/AR security audit reports, whitepapers, and Rules of Engagement"
-theme: jekyll-theme-hacker
 
-# Включаем кастомные стили
 markdown: kramdown
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+
