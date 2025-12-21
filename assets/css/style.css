@@ -1,6 +1,18 @@
-/* === DATADEF CYBERPUNK DARK THEME === */
+/* === DATADEF CYBERPUNK DARK THEME (Refined) === */
 
-/* Фон сайта — глубокий тёмно-синий */
+/* Подключаем Orbitron для заголовков */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&display=swap');
+
+/* Основной контейнер — ограничиваем ширину */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+/* Фон сайта — глубокий черно-синий */
 body {
     background-color: #05070d;
     color: #d6eaff;
@@ -9,7 +21,7 @@ body {
     padding: 0;
 }
 
-/* === Фон-сетка (grid) === */
+/* === Фон-сетка (grid) — мягче === */
 body::before {
     content: "";
     position: fixed;
@@ -18,14 +30,14 @@ body::before {
     width: 100%;
     height: 100%;
     background-image:
-        linear-gradient(rgba(0, 255, 255, 0.05) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(0, 255, 255, 0.05) 1px, transparent 1px);
-    background-size: 40px 40px;
+        linear-gradient(rgba(0, 80, 255, 0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 0, 80, 0.04) 1px, transparent 1px);
+    background-size: 45px 45px;
     pointer-events: none;
     z-index: 0;
 }
 
-/* === Эффект сканирующего луча === */
+/* === Эффект сканирующего луча — слабее === */
 body::after {
     content: "";
     position: fixed;
@@ -34,11 +46,11 @@ body::after {
     width: 100%;
     height: 100%;
     background: linear-gradient(
-        rgba(0, 255, 255, 0) 0%,
-        rgba(0, 255, 255, 0.15) 50%,
-        rgba(0, 255, 255, 0) 100%
+        rgba(0, 80, 255, 0) 0%,
+        rgba(0, 80, 255, 0.10) 50%,
+        rgba(0, 80, 255, 0) 100%
     );
-    animation: scan 6s linear infinite;
+    animation: scan 8s linear infinite;
     pointer-events: none;
     z-index: 1;
 }
@@ -48,38 +60,39 @@ body::after {
     100% { top: 100%; }
 }
 
-/* === Анимированные заголовки === */
+/* === Заголовки Orbitron + мягкое свечение === */
 h1, h2, h3 {
+    font-family: "Orbitron", sans-serif;
     color: #7df9ff;
-    text-shadow: 0 0 12px #00eaff;
-    animation: glow 3s ease-in-out infinite alternate;
+    text-shadow: 0 0 6px rgba(0, 80, 255, 0.6);
+    animation: glow 4s ease-in-out infinite alternate;
 }
 
 @keyframes glow {
-    from { text-shadow: 0 0 6px #00eaff; }
-    to   { text-shadow: 0 0 18px #00eaff; }
+    from { text-shadow: 0 0 4px rgba(0, 80, 255, 0.5); }
+    to   { text-shadow: 0 0 10px rgba(255, 0, 80, 0.6); }
 }
 
-/* === Ссылки === */
+/* === Ссылки — красно-синие, без сильного свечения === */
 a {
-    color: #00eaff;
-    text-shadow: 0 0 8px #00eaff;
+    color: #4da6ff;
+    text-shadow: 0 0 4px rgba(0, 80, 255, 0.4);
     transition: 0.2s;
 }
 
 a:hover {
-    color: #ff00ff;
-    text-shadow: 0 0 12px #ff00ff;
+    color: #ff4da6;
+    text-shadow: 0 0 6px rgba(255, 0, 80, 0.5);
 }
 
-/* === Киберпанк-рамки секций === */
+/* === Киберпанк-рамки секций — тоньше === */
 section {
-    border-left: 3px solid #00eaff;
+    border-left: 2px solid #4da6ff;
     padding-left: 20px;
     margin: 30px 0;
 }
 
-/* === Таблицы === */
+/* === Таблицы — более строгие === */
 table {
     border-collapse: collapse;
     width: 100%;
@@ -101,10 +114,10 @@ td {
     color: #d6eaff;
 }
 
-/* === Градиентные линии === */
+/* === Градиентные линии — красно-синие === */
 .hr-gradient {
     height: 2px;
-    background: linear-gradient(90deg, #00eaff, #ff00ff);
+    background: linear-gradient(90deg, #4da6ff, #ff4da6);
     margin: 40px 0;
 }
 
@@ -120,5 +133,5 @@ footer {
 }
 
 footer a {
-    color: #00eaff;
+    color: #4da6ff;
 }
