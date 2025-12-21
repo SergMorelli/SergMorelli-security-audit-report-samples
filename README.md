@@ -21,16 +21,26 @@ The repository provides sample multi-level security audit reports.
     ├── 🇬🇧 en/ → Executive Report
     └── 🇸🇦 ar/ → تقرير الإدارة العليا
 
+📘 whitepaper/
+    ├── 🇷🇺 ru/ → Вводные документы
+    ├── 🇬🇧 en/ → White Paper
+    └── 🇸🇦 ar/ → الورقة البيضاء
+ 
+
 ```
 
 ## 🧭 Навигация / Navigation / الهيكل
 
 | Уровень отчета | Русский | English | العربية |
 |----------------|---------|---------|---------|
-| 🛠 [Technical](reports/technical/)   | [ru](reports/technical/ru/) | [en](reports/technical/en/) | [ar](reports/technical/ar/) |
-| 📋 [Management](reports/management/) | [ru](reports/management/ru/) | [en](reports/management/en/) | [ar](reports/management/ar/) |
-| 🏛 [Executive](reports/executive/)   | [ru](reports/executive/ru/) | [en](reports/executive/en/) | [ar](reports/executive/ar/) |
+| 🛠 [Technical](reports/technical/)     | [ru](reports/technical/ru/) | [en](reports/technical/en/) | [ar](reports/technical/ar/) |
+| 📋 [Management](reports/management/)   | [ru](reports/management/ru/) | [en](reports/management/en/) | [ar](reports/management/ar/) |
+| 🏛 [Executive](reports/executive/)     | [ru](reports/executive/ru/) | [en](reports/executive/en/) | [ar](reports/executive/ar/) |
 
+
+|    Document   | Русский | English | العربية |
+|----------------|---------|---------|---------|
+| [White Paper](📘whitepaper/) |[RU](📘whitepaper/ru/)  |[EN ](📘whitepaper/en/) |[AR](📘whitepaper/ar/)
 
 ## 🎯 Цель / Purpose / الهدف
 
