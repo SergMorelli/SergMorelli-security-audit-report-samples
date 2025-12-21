@@ -76,3 +76,10 @@ It includes:
 Vulnerability Management Specialist  
 UAE / EU
 
+<footer>
+    © 2025 DataDef — Cybersecurity & Risk Management  
+    UAE / EU  
+    <br>
+    <a href="https://datadef.ae">datadef.ae</a>
+</footer>
+
