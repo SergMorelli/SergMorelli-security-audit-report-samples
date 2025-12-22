@@ -236,36 +236,21 @@ body::after {
 }
 
 
+/* === WRAPPER FOR HOLOGRAPHIC FRAME === */
 
-/* === MAIN CONTENT BLOCK — HOLOGRAPHIC FRAME (FIXED) === */
-
-.container {
+.container-wrap {
+    position: relative;
     max-width: 960px;
     margin: 0 auto;
-    padding: 32px;
-
-    /* Твой фон */
-    background: radial-gradient(circle at center, #0a0a0a 0%, #050505 60%, #000000 100%);
-
-    border-radius: 10px;
-    position: relative;
-    z-index: 1;
-
-    /* Сетка */
-    background-image:
-        linear-gradient(rgba(77,166,255,0.06) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(77,166,255,0.06) 1px, transparent 1px);
-    background-size: 32px 32px;
-
-    animation: grid-glow 4s ease-in-out infinite;
+    z-index: 0;
 }
 
-/* === Голографическая рамка (внешний слой) === */
-.container::before {
+/* Внешняя голографическая рамка */
+.container-wrap::before {
     content: "";
     position: absolute;
-    inset: -3px; /* ВАЖНО: рамка снаружи */
-    border-radius: 12px;
+    inset: -8px;              /* Насколько рамка выходит наружу */
+    border-radius: 16px;      /* Чуть больше, чем у контейнера */
 
     background: linear-gradient(
         120deg,
@@ -275,25 +260,39 @@ body::after {
     );
     background-size: 300% 300%;
     animation: holo-shift 6s ease-in-out infinite;
+    filter: blur(4px);
 
-    z-index: -1;
-    filter: blur(3px); /* эффект плазмы */
+    pointer-events: none;
+    z-index: 0;               /* Под контейнером */
 }
 
-/* === Внутреннее свечение === */
-.container::after {
-    content: "";
-    position: absolute;
-    inset: 0;
+
+
+
+
+
+/* === MAIN CONTENT BLOCK — HOLOGRAPHIC FRAME (FIXED) === */
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 32px;
+
+    background: radial-gradient(circle at center, #0a0a0a 0%, #050505 60%, #000000 100%);
     border-radius: 10px;
 
-    box-shadow:
-        inset 0 0 18px rgba(77,166,255,0.25),
-        inset 0 0 32px rgba(77,166,255,0.15);
+    position: relative;
+    z-index: 1; /* ВАЖНО: выше рамки */
 
-    animation: inner-pulse 5s ease-in-out infinite;
-    pointer-events: none;
+    background-image:
+        linear-gradient(rgba(77,166,255,0.06) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(77,166,255,0.06) 1px, transparent 1px);
+    background-size: 32px 32px;
+
+    animation: grid-glow 4s ease-in-out infinite;
 }
+
+
 
 /* === Анимации === */
 @keyframes holo-shift {
