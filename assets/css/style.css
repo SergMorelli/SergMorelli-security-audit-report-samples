@@ -74,6 +74,10 @@ body::after {
     z-index: 0;
 }
 
+@keyframes blue-scan {
+    0% { top: -200%; }
+    100% { top: 200%; }
+}
 
 
 /* Optional hero block 
@@ -242,16 +246,18 @@ body::after {
     position: relative;
     max-width: 960px;
     margin: 0 auto;
-    z-index: 1; /* ← поднимаем над волнами */
+    padding: 8px;
+    z-index: 1;
 }
 
 
-/* Внешняя голографическая рамка */
+/* Голографическая рамка */
 .container-wrap::before {
     content: "";
     position: absolute;
-    inset: -8px;              /* Насколько рамка выходит наружу */
-    border-radius: 16px;      /* Чуть больше, чем у контейнера */
+    inset: 0;
+    border-radius: 16px;
+    padding: 2px;
 
     background: linear-gradient(
         120deg,
@@ -261,30 +267,30 @@ body::after {
     );
     background-size: 300% 300%;
     animation: holo-shift 6s ease-in-out infinite;
-    filter: blur(4px);
+    
+    -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
 
     pointer-events: none;
-    z-index: 0; /* ← рамка над волнами, но под контейнером */
-             /* Под контейнером */
+    z-index: -1;
 }
-
-
-
-
 
 
 /* === MAIN CONTENT BLOCK — HOLOGRAPHIC FRAME (FIXED) === */
 
 .container {
     max-width: 960px;
-    margin: 0 auto;
+    margin: 0;
     padding: 32px;
 
     background: radial-gradient(circle at center, #0a0a0a 0%, #050505 60%, #000000 100%);
     border-radius: 10px;
 
     position: relative;
-    z-index: 2; /* ВАЖНО: выше рамки */
+    z-index: 1;
 
     background-image:
         linear-gradient(rgba(77,166,255,0.06) 1px, transparent 1px),
@@ -351,20 +357,20 @@ body::after {
     text-align: center;
     position: relative;
     z-index: 1;
-    overflow: hidden; /* ← добавлено сюда */
+    overflow: hidden;
 
     /* Сетка */
     background-image:
         linear-gradient(rgba(77,166,255,0.06) 1px, transparent 1px),
         linear-gradient(90deg, rgba(77,166,255,0.06) 1px, transparent 1px);
-    background-size:  32px 32px;
+    background-size: 32px 32px;
 }
 
 .hero::before {
     content: "";
-    position:  absolute;
-    top:  -150%;
-    left:  0;
+    position: absolute;
+    top: -150%;
+    left: 0;
     width: 100%;
     height: 150%;
     background: linear-gradient(
@@ -452,6 +458,7 @@ footer a:hover {
     color: #fff;
     text-shadow: 0 0 6px #4da6ff;
 }
+
 @keyframes hero-scan {
     0% {
         top: -150%;
@@ -460,13 +467,3 @@ footer a:hover {
         top: 150%;
     }
 }
-
-
-
-
-@keyframes red-scan {
-    0% { top: -200%; }
-    100% { top: 200%; }
-}
-
-
