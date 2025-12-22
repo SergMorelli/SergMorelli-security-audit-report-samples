@@ -61,4 +61,15 @@ The repository provides sample multi-level security audit reports.
 - **EN:** All data is sanitized and provided solely for demonstration purposes.
 - **AR:** جميع البيانات مجهولة الهوية ومقدمة فقط لأغراض العرض التوضيحي.
 
-  
+  ## Licensing
+
+This project uses a multi‑license model:
+
+- Documentation: CC BY‑NC 4.0  
+  (with additional permission for derived commercial reports)
+- Branding: Trademark protected  
+- Code samples (if any): MIT License
+
+Full license texts (EN/RU/AR):  
+https://github.com/SergMorelli/SergMorelli-security-audit-report-samples/tree/main/licenses
+
