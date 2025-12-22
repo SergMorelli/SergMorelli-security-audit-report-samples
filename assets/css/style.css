@@ -228,7 +228,7 @@ a:hover {
     border: 1px solid rgba(77,166,255,0.5);
 
     /* Внешнее + внутреннее свечение */
-    box-shadow:
+    box-shadow: 
         0 0 20px rgba(77,166,255,0.45),
         0 0 40px rgba(77,166,255,0.25),
         inset 0 0 16px rgba(77,166,255,0.15);
@@ -237,23 +237,20 @@ a:hover {
     text-align: center;
     position: relative;
     z-index: 1;
+    overflow: hidden; /* ← добавлено сюда */
 
     /* Сетка */
     background-image:
         linear-gradient(rgba(77,166,255,0.06) 1px, transparent 1px),
         linear-gradient(90deg, rgba(77,166,255,0.06) 1px, transparent 1px);
-    background-size: 32px 32px;
-
-   .hero {
-    position: relative;
-    overflow: hidden; /* важно! */
+    background-size:  32px 32px;
 }
 
-.hero::before {
+. hero:: before {
     content: "";
     position: absolute;
     top: -150%;
-    left: 0;
+    left:  0;
     width: 100%;
     height: 150%;
     background: linear-gradient(
@@ -265,9 +262,7 @@ a:hover {
     filter: blur(8px);
     animation: hero-scan 6s linear infinite;
     pointer-events: none;
-}
-
-   
+    z-index: -1; /* ← опционально, чтобы волна была за текстом */
 }
 
 .hero h1 {
