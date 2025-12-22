@@ -204,3 +204,34 @@ footer a {
     color: #000;
     box-shadow: 0 0 12px #4da6ff;
 }
+
+/* GitHub Repo Button */
+.repo-link {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    border: 1px solid #4da6ff;
+    border-radius: 6px;
+    color: #4da6ff;
+    font-weight: 600;
+    transition: 0.25s ease;
+    text-shadow: 0 0 6px rgba(77,166,255,0.6);
+}
+
+.repo-link:hover {
+    background: #4da6ff;
+    color: #000;
+    box-shadow: 0 0 12px #4da6ff, 0 0 24px #4da6ff;
+    transform: translateY(-2px);
+}
+
+.github-icon {
+    width: 18px;
+    height: 18px;
+    transition: 0.25s ease;
+}
+
+.repo-link:hover .github-icon {
+    filter: drop-shadow(0 0 6px #000);
+}
