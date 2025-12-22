@@ -236,3 +236,14 @@ footer a {
 .repo-link:hover .github-icon {
     filter: drop-shadow(0 0 6px #000);
 }
+
+.menu-icon {
+    width: 9px;
+    height: 9px;
+    margin-right: 6px;
+    transition: 0.25s ease;
+}
+
+.nav-links a:hover .menu-icon {
+    filter: drop-shadow(0 0 6px #4da6ff);
+}
