@@ -24,4 +24,4 @@ Selling the original templates or documentation is strictly prohibited.
 ## Attribution Requirement
 When redistributing or referencing the materials, include:
 
-“Based on materials by DataDef / Serg Morelli (CC BY‑NC 4.0)”
+“Based on materials by DataDef Information Security / Serg Morelli (CC BY‑NC 4.0)”
