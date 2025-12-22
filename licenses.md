@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Licenses
+permalink: /licenses/
 ---
+
 
 # Licenses
 
