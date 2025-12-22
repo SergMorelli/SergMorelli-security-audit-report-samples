@@ -236,22 +236,18 @@ body::after {
 }
 
 
-/* === MAIN CONTENT BLOCK (DataDef Cyberpunk) === */
 
-/* === MAIN CONTENT BLOCK — HOLOGRAPHIC FRAME === */
+/* === MAIN CONTENT BLOCK — HOLOGRAPHIC FRAME (FIXED) === */
 
 .container {
     max-width: 960px;
     margin: 0 auto;
     padding: 32px;
 
-    background: #0d0d0d;
+    /* Твой фон */
+    background: radial-gradient(circle at center, #0a0a0a 0%, #050505 60%, #000000 100%);
 
-    /* Базовая рамка (внутренняя) */
-    border: 2px solid transparent;
     border-radius: 10px;
-    background-clip: padding-box;
-
     position: relative;
     z-index: 1;
 
@@ -261,7 +257,6 @@ body::after {
         linear-gradient(90deg, rgba(77,166,255,0.06) 1px, transparent 1px);
     background-size: 32px 32px;
 
-    /* Пульсация сетки */
     animation: grid-glow 4s ease-in-out infinite;
 }
 
@@ -269,21 +264,20 @@ body::after {
 .container::before {
     content: "";
     position: absolute;
-    inset: -2px;
+    inset: -3px; /* ВАЖНО: рамка снаружи */
     border-radius: 12px;
 
     background: linear-gradient(
         120deg,
-        rgba(77,166,255,0.8),
-        rgba(255,0,200,0.8),
-        rgba(77,166,255,0.8)
+        rgba(77,166,255,0.9),
+        rgba(255,0,200,0.9),
+        rgba(77,166,255,0.9)
     );
     background-size: 300% 300%;
-
     animation: holo-shift 6s ease-in-out infinite;
 
     z-index: -1;
-    filter: blur(2px);
+    filter: blur(3px); /* эффект плазмы */
 }
 
 /* === Внутреннее свечение === */
@@ -300,6 +294,41 @@ body::after {
     animation: inner-pulse 5s ease-in-out infinite;
     pointer-events: none;
 }
+
+/* === Анимации === */
+@keyframes holo-shift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@keyframes inner-pulse {
+    0% { opacity: 0.6; }
+    50% { opacity: 1; }
+    100% { opacity: 0.6; }
+}
+
+@keyframes grid-glow {
+    0% {
+        background-image:
+            linear-gradient(rgba(77,166,255,0.04) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(77,166,255,0.04) 1px, transparent 1px);
+    }
+    50% {
+        background-image:
+            linear-gradient(rgba(77,166,255,0.12) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(77,166,255,0.12) 1px, transparent 1px);
+    }
+    100% {
+        background-image:
+            linear-gradient(rgba(77,166,255,0.04) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(77,166,255,0.04) 1px, transparent 1px);
+    }
+}
+
+
+
+
 
 /* === Анимации === */
 @keyframes holo-shift {
