@@ -278,6 +278,17 @@ body::after {
 
     z-index: -1;
     filter: blur(3px); /* эффект плазмы */
+    
+    /* Маска: показывать только рамку, не заливать весь контейнер */
+    -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+    padding: 3px;
 }
 
 /* === Внутреннее свечение === */
