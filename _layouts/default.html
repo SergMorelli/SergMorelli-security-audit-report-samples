@@ -26,7 +26,13 @@
 <nav class="navbar">
   <div class="nav-container">
     <div class="nav-logo">Local Navigation</div>
+      
     <ul class="nav-links">
+<div class="nav-toggle" id="nav-toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
 
   <!-- Home -->
   <li>
@@ -103,6 +109,12 @@
     <br>
     <a href="https://datadef.ae">datadef.ae</a>
 </footer>
+<script>
+document.getElementById("nav-toggle").onclick = function () {
+    document.getElementById("nav-links").classList.toggle("open");
+    this.classList.toggle("open");
+};
+</script>
 
 </body>
 </html>
