@@ -242,8 +242,9 @@ body::after {
     position: relative;
     max-width: 960px;
     margin: 0 auto;
-    z-index: 0;
+    z-index: 2; /* ← поднимаем над волнами */
 }
+
 
 /* Внешняя голографическая рамка */
 .container-wrap::before {
@@ -263,7 +264,8 @@ body::after {
     filter: blur(4px);
 
     pointer-events: none;
-    z-index: 0;               /* Под контейнером */
+    z-index: 1; /* ← рамка над волнами, но под контейнером */
+             /* Под контейнером */
 }
 
 
