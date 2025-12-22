@@ -126,6 +126,19 @@ document.getElementById("nav-toggle").onclick = function () {
     this.classList.toggle("open");
 };
 </script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const links = document.querySelectorAll(".nav-links a");
+    const current = window.location.pathname;
+
+    links.forEach(link => {
+        if (link.getAttribute("href") === current ||
+            link.getAttribute("href") === current + "/") {
+            link.classList.add("active");
+        }
+    });
+});
+</script>
 
 </body>
 </html>
