@@ -461,12 +461,6 @@ footer a:hover {
     }
 }
 
-/* === GLOBAL RED SCAN WAVE (behind everything) === */
-
-body {
-    position: relative;
-    overflow-x: hidden;
-}
 
 
 
