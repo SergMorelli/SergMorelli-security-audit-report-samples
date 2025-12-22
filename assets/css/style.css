@@ -139,6 +139,46 @@ footer a {
 
 /* === NAVIGATION BAR (DataDef Cyberpunk) === */
 
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #0a0a0a;
+    border-bottom: 1px solid #4da6ff;
+    box-shadow: 0 0 12px rgba(77,166,255,0.3);
+    z-index: 1000;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.nav-container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    font-size: 16px;
+    font-weight: 700;
+    color: #4da6ff;
+    text-shadow: 0 0 6px rgba(77,166,255,0.6);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: flex;
+    align-items: center;
+}
+
 .nav-links a {
     display: inline-flex;
     align-items: center;
@@ -167,4 +207,9 @@ footer a {
 .nav-links a:hover .menu-icon,
 .repo-link:hover .github-icon {
     filter: drop-shadow(0 0 6px #4da6ff);
+}
+
+/* Spacer below fixed nav */
+.nav-spacer {
+    height: 48px;
 }
