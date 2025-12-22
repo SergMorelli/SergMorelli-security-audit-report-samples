@@ -1,4 +1,52 @@
-/* === NAVIGATION BAR (DataDef Cyberpunk) === */
+/* ============================================================
+   GLOBAL PAGE STYLE
+   ============================================================ */
+
+body {
+    background: #0a0a0a;
+    color: #e0e0e0;
+    font-family: 'JetBrains Mono', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #4da6ff;
+    text-decoration: none;
+    transition: 0.25s ease;
+}
+
+a:hover {
+    color: #fff;
+    text-shadow: 0 0 6px #4da6ff;
+}
+
+/* Main content container */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 24px;
+    background: #111;
+    border: 1px solid #4da6ff;
+    box-shadow: 0 0 16px rgba(77,166,255,0.4);
+    border-radius: 6px;
+    position: relative;
+    z-index: 1;
+}
+
+/* Optional hero block */
+.hero {
+    background: #111;
+    padding: 32px;
+    border: 1px solid #4da6ff;
+    box-shadow: 0 0 20px rgba(77,166,255,0.5);
+    border-radius: 6px;
+    margin-bottom: 24px;
+}
+
+/* ============================================================
+   NAVIGATION BAR (DataDef Cyberpunk)
+   ============================================================ */
 
 .navbar {
     position: fixed;
@@ -46,10 +94,7 @@
     align-items: center;
     gap: 6px;
     padding: 6px 12px;
-    text-decoration: none;
-    color: #4da6ff;
     font-weight: 600;
-    transition: 0.25s ease;
 }
 
 /* Hover */
@@ -85,7 +130,9 @@
     height: 48px;
 }
 
-/* === MOBILE NAVIGATION === */
+/* ============================================================
+   MOBILE NAVIGATION
+   ============================================================ */
 
 .nav-toggle {
     display: none;
@@ -144,4 +191,24 @@
         padding: 10px 4px;
         font-size: 16px;
     }
+}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+
+footer {
+    text-align: center;
+    margin: 40px 0;
+    color: #4da6ff;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+footer a {
+    color: #4da6ff;
+}
+
+footer a:hover {
+    color: #fff;
+    text-shadow: 0 0 6px #4da6ff;
 }
