@@ -213,3 +213,74 @@ footer a {
 .nav-spacer {
     height: 48px;
 }
+
+
+/* === MOBILE NAVIGATION === */
+
+.nav-toggle {
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.nav-toggle span {
+    width: 22px;
+    height: 2px;
+    background: #4da6ff;
+    transition: 0.3s ease;
+    box-shadow: 0 0 6px rgba(77,166,255,0.6);
+}
+
+/* Анимация гамбургера */
+.nav-toggle.open span:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+}
+
+.nav-toggle.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.nav-toggle.open span:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
+}
+
+/* Мобильная версия */
+@media (max-width: 720px) {
+
+    .nav-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nav-toggle {
+        display: flex;
+    }
+
+    .nav-links {
+        position: absolute;
+        top: 48px;
+        right: 0;
+        background: #0a0a0a;
+        width: 100%;
+        flex-direction: column;
+        gap: 12px;
+        padding: 16px;
+        border-bottom: 1px solid #4da6ff;
+        box-shadow: 0 0 12px rgba(77,166,255,0.3);
+        display: none;
+    }
+
+    .nav-links.open {
+        display: flex;
+    }
+
+    .nav-links li {
+        justify-content: flex-start;
+    }
+
+    .nav-links a {
+        padding: 10px 4px;
+        font-size: 16px;
+    }
+}
