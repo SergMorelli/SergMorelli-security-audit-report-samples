@@ -242,7 +242,7 @@ body::after {
     position: relative;
     max-width: 960px;
     margin: 0 auto;
-    z-index: 2; /* ← поднимаем над волнами */
+    z-index: 1; /* ← поднимаем над волнами */
 }
 
 
@@ -264,7 +264,7 @@ body::after {
     filter: blur(4px);
 
     pointer-events: none;
-    z-index: 1; /* ← рамка над волнами, но под контейнером */
+    z-index: 0; /* ← рамка над волнами, но под контейнером */
              /* Под контейнером */
 }
 
@@ -284,7 +284,7 @@ body::after {
     border-radius: 10px;
 
     position: relative;
-    z-index: 1; /* ВАЖНО: выше рамки */
+    z-index: 2; /* ВАЖНО: выше рамки */
 
     background-image:
         linear-gradient(rgba(77,166,255,0.06) 1px, transparent 1px),
@@ -293,41 +293,6 @@ body::after {
 
     animation: grid-glow 4s ease-in-out infinite;
 }
-
-
-
-/* === Анимации === */
-@keyframes holo-shift {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-}
-
-@keyframes inner-pulse {
-    0% { opacity: 0.6; }
-    50% { opacity: 1; }
-    100% { opacity: 0.6; }
-}
-
-@keyframes grid-glow {
-    0% {
-        background-image:
-            linear-gradient(rgba(77,166,255,0.04) 1px, transparent 1px),
-            linear-gradient(90deg, rgba(77,166,255,0.04) 1px, transparent 1px);
-    }
-    50% {
-        background-image:
-            linear-gradient(rgba(77,166,255,0.12) 1px, transparent 1px),
-            linear-gradient(90deg, rgba(77,166,255,0.12) 1px, transparent 1px);
-    }
-    100% {
-        background-image:
-            linear-gradient(rgba(77,166,255,0.04) 1px, transparent 1px),
-            linear-gradient(90deg, rgba(77,166,255,0.04) 1px, transparent 1px);
-    }
-}
-
-
 
 
 
