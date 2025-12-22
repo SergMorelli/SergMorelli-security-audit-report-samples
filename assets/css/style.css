@@ -1,142 +1,3 @@
-/* === DATADEF CYBERPUNK DARK THEME (Refined) === */
-
-/* Подключаем Orbitron для заголовков */
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&display=swap');
-
-/* Основной контейнер — ограничиваем ширину */
-.container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 20px;
-    position: relative;
-    z-index: 2;
-}
-
-/* Фон сайта — глубокий черно-синий */
-body {
-    background-color: #05070d;
-    color: #d6eaff;
-    font-family: "JetBrains Mono", "Fira Code", monospace;
-    margin: 0;
-    padding: 0;
-}
-
-/* === Фон-сетка (grid) — мягче === */
-body::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image:
-        linear-gradient(rgba(0, 80, 255, 0.04) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255, 0, 80, 0.04) 1px, transparent 1px);
-    background-size: 45px 45px;
-    pointer-events: none;
-    z-index: 0;
-}
-
-/* === Эффект сканирующего луча — слабее === */
-body::after {
-    content: "";
-    position: fixed;
-    top: -100%;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(
-        rgba(0, 80, 255, 0) 0%,
-        rgba(0, 80, 255, 0.10) 50%,
-        rgba(0, 80, 255, 0) 100%
-    );
-    animation: scan 8s linear infinite;
-    pointer-events: none;
-    z-index: 1;
-}
-
-@keyframes scan {
-    0% { top: -100%; }
-    100% { top: 100%; }
-}
-
-/* === Заголовки Orbitron + мягкое свечение === */
-h1, h2, h3 {
-    font-family: "Orbitron", sans-serif;
-    color: #7df9ff;
-    text-shadow: 0 0 6px rgba(0, 80, 255, 0.6);
-    animation: glow 4s ease-in-out infinite alternate;
-}
-
-@keyframes glow {
-    from { text-shadow: 0 0 4px rgba(0, 80, 255, 0.5); }
-    to   { text-shadow: 0 0 10px rgba(255, 0, 80, 0.6); }
-}
-
-/* === Ссылки — красно-синие, без сильного свечения === */
-a {
-    color: #4da6ff;
-    text-shadow: 0 0 4px rgba(0, 80, 255, 0.4);
-    transition: 0.2s;
-}
-
-a:hover {
-    color: #ff4da6;
-    text-shadow: 0 0 6px rgba(255, 0, 80, 0.5);
-}
-
-/* === Киберпанк-рамки секций — тоньше === */
-section {
-    border-left: 2px solid #4da6ff;
-    padding-left: 20px;
-    margin: 30px 0;
-}
-
-/* === Таблицы — более строгие === */
-table {
-    border-collapse: collapse;
-    width: 100%;
-    margin: 20px 0;
-}
-
-th, td {
-    border: 1px solid #1f2a48;
-    padding: 10px;
-}
-
-th {
-    background-color: #0d1226;
-    color: #7df9ff;
-}
-
-td {
-    background-color: #05070d;
-    color: #d6eaff;
-}
-
-/* === Градиентные линии — красно-синие === */
-.hr-gradient {
-    height: 2px;
-    background: linear-gradient(90deg, #4da6ff, #ff4da6);
-    margin: 40px 0;
-}
-
-/* === Тёмный футер === */
-footer {
-    background: #02040a;
-    border-top: 1px solid #0d1226;
-    padding: 20px;
-    text-align: center;
-    color: #7df9ff;
-    margin-top: 40px;
-    font-size: 14px;
-}
-
-footer a {
-    color: #4da6ff;
-}
-
-
 /* === NAVIGATION BAR (DataDef Cyberpunk) === */
 
 .navbar {
@@ -166,6 +27,7 @@ footer a {
     text-shadow: 0 0 6px rgba(77,166,255,0.6);
 }
 
+/* Desktop menu */
 .nav-links {
     list-style: none;
     display: flex;
@@ -190,11 +52,20 @@ footer a {
     transition: 0.25s ease;
 }
 
+/* Hover */
 .nav-links a:hover {
     color: #fff;
     text-shadow: 0 0 6px #4da6ff;
 }
 
+/* Active link highlight */
+.nav-links a.active {
+    color: #fff;
+    text-shadow: 0 0 10px #4da6ff;
+    border-bottom: 2px solid #4da6ff;
+}
+
+/* Icons */
 .menu-icon,
 .github-icon {
     width: 10px;
@@ -214,7 +85,6 @@ footer a {
     height: 48px;
 }
 
-
 /* === MOBILE NAVIGATION === */
 
 .nav-toggle {
@@ -232,7 +102,7 @@ footer a {
     box-shadow: 0 0 6px rgba(77,166,255,0.6);
 }
 
-/* Анимация гамбургера */
+/* Hamburger animation */
 .nav-toggle.open span:nth-child(1) {
     transform: translateY(6px) rotate(45deg);
 }
@@ -245,13 +115,8 @@ footer a {
     transform: translateY(-6px) rotate(-45deg);
 }
 
-/* Мобильная версия */
+/* Mobile layout */
 @media (max-width: 720px) {
-
-    .nav-container {
-        flex-direction: row;
-        justify-content: space-between;
-    }
 
     .nav-toggle {
         display: flex;
@@ -273,10 +138,6 @@ footer a {
 
     .nav-links.open {
         display: flex;
-    }
-
-    .nav-links li {
-        justify-content: flex-start;
     }
 
     .nav-links a {
