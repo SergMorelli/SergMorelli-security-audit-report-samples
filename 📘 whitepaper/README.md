@@ -16,8 +16,8 @@ These documents help auditors understand the system, responsibilities, and const
 
 ## 📁 Files
 - 🇷🇺  White Paper RU  [.doc](ru/whitepaper-ru.docx)  /  [.pdf](ru/whitepaper-ru.pdf)
-- 🇬🇧  White Paper EN  [.doc](ru/whitepaper-en.docx)  /  [.pdf](ru/whitepaper-en.pdf)
-- 🇸🇦  White Paper AR  [.doc](ru/whitepaper-ar.docx)  /  [.pdf](ru/whitepaper-ar.pdf)
+- 🇬🇧  White Paper EN  [.doc](en/whitepaper-en.docx)  /  [.pdf](en/whitepaper-en.pdf)
+- 🇸🇦  White Paper AR  [.doc](ar/whitepaper-ar.docx)  /  [.pdf](ar/whitepaper-ar.pdf)
 
 ---
 
