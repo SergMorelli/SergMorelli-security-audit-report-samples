@@ -227,10 +227,11 @@ footer a {
 }
 
 .github-icon {
-    width: 18px;
-    height: 18px;
+    width: 9px;
+    height: 9px;
     transition: 0.25s ease;
 }
+
 
 .repo-link:hover .github-icon {
     filter: drop-shadow(0 0 6px #000);
