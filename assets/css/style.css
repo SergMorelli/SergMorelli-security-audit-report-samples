@@ -193,6 +193,29 @@ a:hover {
     }
 }
 
+/* === MAIN CONTENT BLOCK (DataDef Cyberpunk) === */
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 32px;
+    background: #0d0d0d;
+    border: 1px solid rgba(77,166,255,0.4);
+    box-shadow:
+        0 0 12px rgba(77,166,255,0.3),
+        inset 0 0 12px rgba(77,166,255,0.15);
+    border-radius: 8px;
+    position: relative;
+    z-index: 1;
+
+    /* “сеточный” эффект */
+    background-image:
+        linear-gradient(rgba(77,166,255,0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(77,166,255,0.05) 1px, transparent 1px);
+    background-size: 32px 32px;
+}
+
+
 /* ============================================================
    FOOTER
    ============================================================ */
