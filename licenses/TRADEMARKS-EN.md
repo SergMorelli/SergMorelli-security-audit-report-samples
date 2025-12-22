@@ -6,7 +6,7 @@ not covered by the Creative Commons license.
 They are protected under standard trademark and copyright law.
 
 You may NOT:
-- Use the DataDef name or logo to imply endorsement.
+- Use the DataDef Information Security name or logo to imply endorsement.
 - Use the branding in commercial products.
 - Modify or redistribute the logo.
 
