@@ -54,7 +54,7 @@ The repository provides sample multi-level security audit reports.
 
 ## 🛠 Web Application Vulnerability Scan Reports / Отчёты сканирования уязвимостей веб-приложений / تقارير فحص ثغرات تطبيقات الويب
 
-| Уровень отчета | Русский | English | العربية |
+| Level | Русский | English | العربية |
 |----------------|---------|---------|---------|
 | 🛠 [Technical](zap-reports/technical/)     | [ru](zap-reports/technical/ru/) | [en](zap-reports/technical/en/) | [ar](zap-reports/technical/ar/) |
 | 📋 [Management](zap-reports/management/)   | [ru](zap-reports/management/ru/) | [en](zap-reports/management/en/) | [ar](zap-reports/management/ar/) |
