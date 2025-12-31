@@ -21,6 +21,20 @@ The repository provides sample multi-level security audit reports.
     ├── 🇬🇧 en/ → Executive Report
     └── 🇸🇦 ar/ → تقرير الإدارة العليا
 
+🛠 zap-reports/
+├── 🛠 technical/
+│   ├── 🇷🇺 ru/ → Технический отчет
+│   ├── 🇬🇧 en/ → Technical Report
+│   └── 🇸🇦 ar/ → التقرير الفني
+├── 📋 management/
+│   ├── 🇷🇺 ru/ → Менеджерский отчет
+│   ├── 🇬🇧 en/ → Management Report
+│   └── 🇸🇦 ar/ → تقرير الإدارة
+└── 🏛 executive/
+    ├── 🇷🇺 ru/ → Отчет для топ-менеджмента
+    ├── 🇬🇧 en/ → Executive Report
+    └── 🇸🇦 ar/ → تقرير الإدارة العليا
+
 📘 whitepaper/
     ├── 🇷🇺 ru/ → Вводные документы
     ├── 🇬🇧 en/ → White Paper
@@ -33,10 +47,20 @@ The repository provides sample multi-level security audit reports.
 
 | Уровень отчета | Русский | English | العربية |
 |----------------|---------|---------|---------|
+| 🛠 [Technical](zap-reports/technical/)     | [ru](zap-reports/technical/ru/) | [en](zap-reports/technical/en/) | [ar](zap-reports/technical/ar/) |
+| 📋 [Management](zap-reports/management/)   | [ru](zap-reports/management/ru/) | [en](zap-reports/management/en/) | [ar](zap-reports/management/ar/) |
+| 🏛 [Executive](zap-reports/executive/)     | [ru](zap-reports/executive/ru/) | [en](zap-reports/executive/en/) | [ar](zap-reports/executive/ar/) |
+
+
+## 🛠 Web Application Vulnerability Scan Reports / Отчёты сканирования уязвимостей веб-приложений / تقارير فحص ثغرات تطبيقات الويب
+
+| Уровень отчета | Русский | English | العربية |
+|----------------|---------|---------|---------|
 | 🛠 [Technical](reports/technical/)     | [ru](reports/technical/ru/) | [en](reports/technical/en/) | [ar](reports/technical/ar/) |
 | 📋 [Management](reports/management/)   | [ru](reports/management/ru/) | [en](reports/management/en/) | [ar](reports/management/ar/) |
 | 🏛 [Executive](reports/executive/)     | [ru](reports/executive/ru/) | [en](reports/executive/en/) | [ar](reports/executive/ar/) |
 
+## White Paper
 
 |    Document   | Русский | English | العربية |
 |----------------|---------|---------|---------|
