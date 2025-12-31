@@ -88,6 +88,16 @@ It includes:
 - 🇬🇧 [EN](reports/executive/en/)
 - 🇸🇦 [AR](reports/executive/ar/)
 
+--- 
+
+## 🛠 Web Application Vulnerability Scan Reports / Отчёты сканирования уязвимостей веб-приложений / تقارير فحص ثغرات تطبيقات الويب
+
+| Level  | 🇷🇺 Русский | 🇬🇧 English | 🇸🇦 العربية |
+|----------------|---------|---------|---------|
+| 🛠 [Technical](zap-reports/technical/)     | [ru](zap-reports/technical/ru/) | [en](zap-reports/technical/en/) | [ar](zap-reports/technical/ar/) |
+| 📋 [Management](zap-reports/management/)   | [ru](zap-reports/management/ru/) | [en](zap-reports/management/en/) | [ar](zap-reports/management/ar/) |
+| 🏛 [Executive](zap-reports/executive/)     | [ru](zap-reports/executive/ru/) | [en](zap-reports/executive/en/) | [ar](zap-reports/executive/ar/) |
+
 
 ---
 
