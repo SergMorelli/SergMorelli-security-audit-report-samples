@@ -8,7 +8,7 @@ en — English version
 ru — Russian version
 ar — Arabic version
 
-These comprehensive reports include:
+These full reports include:
 
 Complete list of detected vulnerabilities categorized by risk level (High, Medium, Low, Informational)
 Detailed descriptions, evidence, remediation recommendations, and references to CWE/OWASP
