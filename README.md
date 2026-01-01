@@ -21,7 +21,11 @@ The repository provides sample multi-level security audit reports.
     ├── 🇬🇧 en/ → Executive Report
     └── 🇸🇦 ar/ → تقرير الإدارة العليا
 
-🛠 zap-reports/
+🕷️ zap-reports/   
+├── 📚 comprehensive/
+│   ├── 🇷🇺 ru/ → Технический отчет
+│   ├── 🇬🇧 en/ → Technical Report
+│   └── 🇸🇦 ar/ → 
 ├── 🛠 technical/
 │   ├── 🇷🇺 ru/ → Технический отчет
 │   ├── 🇬🇧 en/ → Technical Report
@@ -52,7 +56,7 @@ The repository provides sample multi-level security audit reports.
 | 🏛 [Executive](reports/executive/)     | [ru](reports/executive/ru/) | [en](reports/executive/en/) | [ar](reports/executive/ar/) |
 
 
-## 🛠 Web Application Vulnerability Scan Reports / Отчёты сканирования уязвимостей веб-приложений / تقارير فحص ثغرات تطبيقات الويب
+## 🕷️ Web Application Vulnerability Scan Reports / Отчёты сканирования уязвимостей веб-приложений / تقارير فحص ثغرات تطبيقات الويب
 
 | Level | Русский | English | العربية |
 |----------------|---------|---------|---------|
