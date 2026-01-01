@@ -49,6 +49,10 @@ The repository provides sample multi-level security audit reports.
 
 ## 🧭 Навигация / Navigation / الهيكل
 
+- **RU:** Выберите уровень отчёта и язык для просмотра соответствующих материалов.
+- **EN:** Select the report level and language to view the corresponding materials.
+- **AR:** اختر مستوى التقرير واللغة لعرض المواد المقابلة.
+
 | Уровень отчета | Русский | English | العربية |
 |----------------|---------|---------|---------|
 | 🛠 [Technical](reports/technical/)     | [ru](reports/technical/ru/) | [en](reports/technical/en/) | [ar](reports/technical/ar/) |
@@ -58,6 +62,10 @@ The repository provides sample multi-level security audit reports.
 
 ## 🕷️ Web Application Vulnerability Scan Reports / Отчёты сканирования уязвимостей веб-приложений / تقارير فحص ثغرات تطبيقات الويب
 
+- **RU:** Отчёты автоматизированного сканирования уязвимостей веб-приложений (OWASP ZAP).
+- **EN:** Automated web application vulnerability scanning reports (OWASP ZAP).
+- **AR:** تقارير الفحص الآلي لثغرات تطبيقات الويب (OWASP ZAP).
+
 | Level | Русский | English | العربية |
 |----------------|---------|---------|---------|
 | 🛠 [Technical](zap-reports/technical/)     | [ru](zap-reports/technical/ru/) | [en](zap-reports/technical/en/) | [ar](zap-reports/technical/ar/) |
@@ -65,6 +73,10 @@ The repository provides sample multi-level security audit reports.
 | 🏛 [Executive](zap-reports/executive/)     | [ru](zap-reports/executive/ru/) | [en](zap-reports/executive/en/) | [ar](zap-reports/executive/ar/) |
 
 ## White Paper
+
+- **RU:** Вводные документы, определяющие окружение, границы и правила проведения аудита безопасности.
+- **EN:** Introductory documents defining the environment, scope, and rules of engagement for security audits.
+- **AR:** وثائق تعريفية توضح البيئة والنطاق وقواعد تنفيذ تدقيق الأمن.
 
 |    Document   | Русский | English | العربية |
 |----------------|---------|---------|---------|
