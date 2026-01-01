@@ -91,15 +91,32 @@ It includes:
 --- 
 
 
-## 🛠 Web Application Vulnerability Scan Reports / Отчёты сканирования уязвимостей веб-приложений / تقارير فحص ثغرات تطبيقات الويب
+# 🕷️ Web Application Vulnerability Scan Reports / Отчёты сканирования уязвимостей веб-приложений / تقارير فحص ثغرات تطبيقات الويب
+<a id="zap-reports"></a>
+
+## 📚 Comprehensive Reports
+
+- 🇷🇺 [RU](zap-reports/comprehensive/ru/)  |
+- 🇬🇧 [EN](zap-reports/comprehensive/en/)  |
+- 🇸🇦 [AR](zap-reports/comprehensive/ru/)  |
+
+## 🛠 Technical Reports
+- 🇷🇺 [RU](zap-reports/technical/ru/) 
+- 🇬🇧 [EN](zap-reports/technical/en/) 
+- 🇸🇦 [AR](zap-reports/technical/ar/) 
 
 
-| Level  |  🇷🇺 Русский |  🇬🇧 English |  🇸🇦 العربية  |
-|----------------|---------|---------|---------|
-| 🛠 [Technical](zap-reports/technical/)     |  [ru](zap-reports/technical/ru/) |  [en](zap-reports/technical/en/) |  [ar](zap-reports/technical/ar/) |
-| 📋 [Management](zap-reports/management/)   |  [ru](zap-reports/management/ru/) | [en](zap-reports/management/en/) |  [ar](zap-reports/management/ar/) |
-| 🏛 [Executive](zap-reports/executive/)     |  [ru](zap-reports/executive/ru/) |  [en](zap-reports/executive/en/) |  [ar](zap-reports/executive/ar/) |
+## 📋 Management Reports
 
+- 🇷🇺 [RU](zap-reports/management/ru/)
+- 🇬🇧 [EN](zap-reports/management/en/) 
+- 🇸🇦 [AR](zap-reports/management/ar/)
+
+## 🏛 Executive Reports
+
+- 🇷🇺 [RU](zap-reports/executive/ru/)
+- 🇬🇧 [EN](zap-reports/executive/en/) 
+- 🇸🇦 [AR](zap-reports/executive/ar/)
 
 
 ---
