@@ -96,9 +96,9 @@ It includes:
 
 ## 📚 Comprehensive Reports
 
-- 🇷🇺 [RU](zap-reports/comprehensive/ru/)  |
-- 🇬🇧 [EN](zap-reports/comprehensive/en/)  |
-- 🇸🇦 [AR](zap-reports/comprehensive/ru/)  |
+- 🇷🇺 [RU](zap-reports/comprehensive/ru/)  |    - 🇬🇧 [EN](zap-reports/comprehensive/en/)  |   - 🇸🇦 [AR](zap-reports/comprehensive/ru/)  |
+
+
 
 ## 🛠 Technical Reports
 - 🇷🇺 [RU](zap-reports/technical/ru/) 
