@@ -1,15 +1,49 @@
-Comprehensive ZAP Reports
-This section contains examples of comprehensive reports generated using OWASP ZAP — a popular open-source tool for automated web application security testing.
-It includes real-world or demonstration reports in various formats (HTML, PDF, XML, and others), featuring:
+# 📚 Comprehensive ZAP Reports / Полные отчёты ZAP
 
-A complete list of detected vulnerabilities, categorized by risk level (High, Medium, Low, Informational).
-Detailed descriptions of each issue, including evidence, remediation recommendations, and references to CWE/OWASP standards.
-Scanning statistics, alert summaries, and additional data (e.g., request/response history).
+## EN
+This folder contains examples of comprehensive reports generated using OWASP ZAP — a popular open-source tool for automated web application security testing.
+Reports are organized by language in subfolders:
 
-These examples are valuable for:
+en — English version
+ru — Russian version
+ar — Arabic version
 
-Studying the structure and content of professional security audit reports.
-Comparing results from different ZAP configurations.
-Serving as templates when preparing your own security audits.
+These full reports include:
 
-In contrast to the simplified reports in other subsections, the focus here is on maximum detail and completeness of information.
+Complete list of detected vulnerabilities categorized by risk level (High, Medium, Low, Informational)
+Detailed descriptions, evidence, remediation recommendations, and references to CWE/OWASP
+Scanning statistics, alert summaries, and additional data
+
+Ideal for studying professional security report structure or using as templates.
+
+## RU
+Эта папка содержит примеры полных (comprehensive) отчётов, сгенерированных с помощью OWASP ZAP — популярного инструмента для автоматизированного тестирования безопасности веб-приложений.
+Отчёты организованы по языкам в подпапках:
+
+en — англоязычная версия
+ru — русскоязычная версия
+ar — арабоязычная версия
+
+Полные отчёты включают:
+
+Полный список обнаруженных уязвимостей с классификацией по уровню риска (Высокий, Средний, Низкий, Информационный)
+Подробные описания, доказательства, рекомендации по исправлению и ссылки на CWE/OWASP
+Статистику сканирования, сводки и дополнительные данные
+
+Подходят для изучения структуры профессиональных отчётов или использования в качестве шаблонов.
+
+## AR
+يحتوي هذا المجلد على أمثلة لـ تقارير شاملة (comprehensive) تم إنشاؤها باستخدام OWASP ZAP — أداة مفتوحة المصدر شهيرة لاختبار أمان تطبيقات الويب آليًا.
+التقارير منظمة حسب اللغة في مجلدات فرعية:
+
+en — النسخة الإنجليزية
+ru — النسخة الروسية
+ar — النسخة العربية
+
+تشمل التقارير الشاملة:
+
+قائمة كاملة بالثغرات المكتشفة مصنفة حسب مستوى المخاطر (عالي، متوسط، منخفض، معلوماتي)
+وصف مفصل، أدلة، توصيات الإصلاح، ومراجع CWE/OWASP
+إحصائيات المسح، ملخصات التنبيهات وبيانات إضافية
+
+مثالية لدراسة هيكل التقارير الأمنية المهنية أو استخدامها كقوالب.
