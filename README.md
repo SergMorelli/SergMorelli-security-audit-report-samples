@@ -23,8 +23,8 @@ The repository provides sample multi-level security audit reports.
 
 🕷️ zap-reports/   
 ├── 📚 comprehensive/
-│   ├── 🇷🇺 ru/ → Технический отчет
-│   ├── 🇬🇧 en/ → Technical Report
+│   ├── 🇷🇺 ru/ → Общий отчет 
+│   ├── 🇬🇧 en/ → Comprehensive Report
 │   └── 🇸🇦 ar/ → 
 ├── 🛠 technical/
 │   ├── 🇷🇺 ru/ → Технический отчет
@@ -38,6 +38,15 @@ The repository provides sample multi-level security audit reports.
     ├── 🇷🇺 ru/ → Отчет для топ-менеджмента
     ├── 🇬🇧 en/ → Executive Report
     └── 🇸🇦 ar/ → تقرير الإدارة العليا
+
+🕷️ nikto-reports/
+
+├── 📚 comprehensive/
+    ├── 🇷🇺 ru/ → Общий отчет
+    ├── 🇬🇧 en/ → Comprehensive Report
+    └── 🇸🇦 ar/ → 
+
+
 
 📘 whitepaper/
     ├── 🇷🇺 ru/ → Вводные документы
