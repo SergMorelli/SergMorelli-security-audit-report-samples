@@ -118,8 +118,15 @@ It includes:
 - 🇬🇧 [EN](zap-reports/executive/en/) 
 - 🇸🇦 [AR](zap-reports/executive/ar/)
 
+# 🕷️ Nikto Scan Report / Отчёт сканирования Nikto / تقرير مسح نيكتو
 
+## 📚 Comprehensive Reports
+
+- 🇷🇺 [RU](nikto-report/comprehensive/ru/)  |    - 🇬🇧 [EN](nikto-report/comprehensive/en/)  |   - 🇸🇦 [AR](nikto-report/comprehensive/ar/)  |
+
+  
 ---
+
 
 # 📘 Whitepapers / Вводные документы / الورقات التعريفية
 <a id="whitepapers"></a>
