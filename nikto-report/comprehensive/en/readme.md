@@ -18,4 +18,4 @@ References to CVE, OSVDB, and other security databases
 Ideal for studying professional security report structure or using as templates.
 
 
-# [.PDF](niktoreports-comprehensive-en.pdf)
+# [.PDF](niktoreport-comprehensive-en.pdf)
