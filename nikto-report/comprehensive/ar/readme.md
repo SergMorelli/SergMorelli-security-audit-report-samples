@@ -18,4 +18,4 @@ ar — النسخة العربية
 مثالية لدراسة هيكل التقارير الأمنية المهنية أو استخدامها كقوالب.
 
 
-# [.PDF](niktoreports-comprehensive-ar.pdf)
+# [.PDF](niktoreport-comprehensive-ar.pdf)
