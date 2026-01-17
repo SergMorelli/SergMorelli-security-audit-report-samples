@@ -122,7 +122,7 @@ It includes:
 
 ## 📚 Comprehensive Reports
 
-- 🇷🇺 [RU](nikto-report/comprehensive/ru/)  |    - 🇬🇧 [EN](nikto-report/comprehensive/en/)  |   - 🇸🇦 [AR](nikto-report/comprehensive/ar/)  |
+  🇷🇺 [RU](nikto-report/comprehensive/ru/)  |        |  🇬🇧 [EN](nikto-report/comprehensive/en/)  |       | 🇸🇦 [AR](nikto-report/comprehensive/ar/)  |
 
   
 ---
