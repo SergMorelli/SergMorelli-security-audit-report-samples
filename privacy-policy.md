@@ -55,10 +55,10 @@ As this is a static documentation site:
 ## 📧 Contact
 
 If you have questions about this Privacy Policy or the repository:
-- Open an issue in the [GitHub repository](https://github.com/SergMorelli/SergMorelli-security-audit-report-samples)  
+- Open an issue in the [GitHub repository]({{ site.github.repository_url }})  
 - Contact: **Serg Morelli** — Vulnerability Management Specialist  
 
 ---
 
 **Last Updated:** January 2026  
-**Repository:** [SergMorelli-security-audit-report-samples](https://github.com/SergMorelli/SergMorelli-security-audit-report-samples)
+**Repository:** [{{ site.github.repository_name }}]({{ site.github.repository_url }})
