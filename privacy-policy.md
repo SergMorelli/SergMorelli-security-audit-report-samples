@@ -5,9 +5,33 @@ permalink: /privacy-policy/
 ---
 
 
-# Privacy Policy
+# Privacy Policy / Политика конфиденциальности 
 
-This Privacy Policy outlines how this repository and its associated materials handle information.
+
+## 🇬🇧 English / 🇷🇺 Русский
+## 📘  About This Page / О странице
+
+🇬🇧 This page provides access to our official Privacy Policies for both:
+our mobile games published on Google Play
+our website hosted on GitHub Pages
+Each policy is maintained as a separate document and applies depending on how you interact with our content.
+
+🇷🇺 Эта страница содержит ссылки на официальные политики конфиденциальности для:
+наших мобильных игр, опубликованных в Google Play
+нашего сайта, размещённого на GitHub Pages
+Каждый документ действует в зависимости от того, каким сервисом вы пользуетесь.
+
+
+
+## Google Play Games
+
+- 🇷🇺 [Тень Архива ](privacy-policy/tenArhivaru)
+
+
+
+
+
+
 
 ---
 
