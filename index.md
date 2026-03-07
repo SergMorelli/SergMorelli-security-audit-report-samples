@@ -131,9 +131,7 @@ It includes:
 # 📘 Whitepapers / Вводные документы / الورقات التعريفية
 <a id="whitepapers"></a>
 
-- 🇷🇺 [RU](📘%20whitepaper/ru/)
-- 🇬🇧 [EN](📘%20whitepaper/en/)
-- 🇸🇦 [AR](📘%20whitepaper/ar/)
+➡️ [View Whitepaper page](/SergMorelli-security-audit-report-samples/whitepaper/)
 
 
 ---
