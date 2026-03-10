@@ -76,45 +76,60 @@ It includes:
 ```
 Security Audit Report Samples
 │
-├── 📊 Reports                        — General Security Audit Reports
-│   ├── 🛠️ Technical                  — технический уровень (EN / RU / AR)
-│   │   └── Детали: уязвимости, PoC, CVSS-рейтинги, имена эксплойтов
-│   ├── 📋 Management                 — уровень менеджмента (EN / RU / AR)
-│   │   └── Детали: риски, сроки, ответственные, KPI безопасности
-│   └── 🏛️ Executive                  — уровень руководства (EN / RU / AR)
-│       └── Детали: сводка, бизнес-риски, рекомендации для C-level
 │
-├── 🕷️ ZAP Reports                    — OWASP ZAP (Zed Attack Proxy)
-│   │                                   Web Application Security Scanner
-│   ├── 📊 Comprehensive              — полный отчёт (EN / RU / AR)
-│   │   └── Все найденные уязвимости, описания, доказательства, CWE/CVE
-│   ├── 🛠️ Technical                  — технический (EN / RU / AR)
-│   │   └── HTTP-запросы, параметры, заголовки, типы атак (XSS, SQLi, ...)
-│   ├── 📋 Management                 — управленческий (EN / RU / AR)
-│   │   └── Приоритеты устранения, сроки, ответственные команды
-│   └── 🏛️ Executive                  — исполнительный (EN / RU / AR)
-│       └── Краткое резюме для руководства, общий уровень риска
+├── 📊  Reports / Отчёты / التقارير
+│   │       General Security Audit Reports
+│   │
+│   ├── 🛠️   Technical / Технический / تقني  (EN / RU / AR)
+│   │         Vulnerabilities, PoC, CVSS scores, exploit names
+│   │
+│   ├── 📋  Management / Менеджмент / إداري  (EN / RU / AR)
+│   │         Risk matrix, priorities (P0–P3), remediation timelines
+│   │
+│   └── 🏛️   Executive / Исполнительный / تنفيذي  (EN / RU / AR)
+│             Business risks, financial impact, C-level recommendations
 │
-├── 🔍 Nikto Reports                  — Nikto Web Server Scanner
-│   │                                   Сканер веб-серверов и конфигураций
-│   └── 📊 Comprehensive              — полный отчёт (EN / RU / AR)
-│       └── Устаревшее ПО, небезопасные заголовки, открытые директории,
-│           конфигурационные ошибки, опасные HTTP-методы
 │
-├── 🔐 SSLScan Reports                — SSLScan / SSL/TLS Security Scanner
-│   │                                   Анализ конфигурации SSL/TLS
-│   └── 📋 Report                     — отчёт (RU)
-│       └── Слабые шифры, истёкшие сертификаты, поддерживаемые протоколы,
-│           уязвимости POODLE / BEAST / Heartbleed
+├── 🕷️  ZAP Reports / ZAP Отчёты / تقارير ZAP
+│   │       OWASP ZAP — Web Application Security Scanner
+│   │
+│   ├── 📊  Comprehensive / Комплексный / شامل  (EN / RU / AR)
+│   │         All findings, evidence, CWE / CVE references
+│   │
+│   ├── 🛠️   Technical / Технический / تقني  (EN / RU / AR)
+│   │         HTTP requests, headers, attack types (XSS, SQLi ...)
+│   │
+│   ├── 📋  Management / Менеджмент / إداري  (EN / RU / AR)
+│   │         Remediation priorities, timelines, responsible teams
+│   │
+│   └── 🏛️   Executive / Исполнительный / تنفيذي  (EN / RU / AR)
+│             Summary for leadership, overall risk level
 │
-├── 📘 Whitepapers                    — Вводные документы (EN / RU / AR)
-│   └── Методология аудита, стандарты (OWASP, NIST, ISO 27001), RoE
 │
-├── 🔒 Privacy Policy                 — Политика конфиденциальности (RU)
+├── 🔍  Nikto Reports / Nikto Отчёты / تقارير Nikto
+│   │       Nikto — Web Server Scanner
+│   │
+│   └── 📊  Comprehensive / Комплексный / شامل  (EN / RU / AR)
+│             Outdated software, insecure headers, open dirs, dangerous HTTP methods
 │
-└── 📄 Licenses
-    ├── Documentation License (CC BY-NC 4.0)   (EN / RU / AR)
-    └── Trademarks                              (EN / RU / AR)
+│
+├── 🔐  SSLScan Reports / SSLScan Отчёты / تقارير SSLScan
+│   │       SSL/TLS Configuration Analyzer
+│   │
+│   └── 📋  Report / Отчёт / تقرير  (RU)
+│             Weak ciphers, expired certs, POODLE / BEAST / Heartbleed
+│
+│
+├── 📘  Whitepapers / Вайтпейперы / وثائق تعريفية  (EN / RU / AR)
+│         Audit methodology, OWASP / NIST / ISO 27001, RoE
+│
+│
+├── 🔒  Privacy Policy / Политика конфиденциальности / سياسة الخصوصية  (RU)
+│
+│
+└── 📄  Licenses / Лицензии / التراخيص
+          Documentation License  CC BY-NC 4.0  (EN / RU / AR)
+          Trademarks                            (EN / RU / AR)
 ```
 
 ---
