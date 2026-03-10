@@ -76,18 +76,45 @@ It includes:
 ```
 Security Audit Report Samples
 │
-├── 📊 Reports
-│   ├── 🛠️ Technical        (EN / RU / AR)
-│   ├── 📋 Management       (EN / RU / AR)
-│   └── 🏛️ Executive        (EN / RU / AR)
+├── 📊 Reports                        — General Security Audit Reports
+│   ├── 🛠️ Technical                  — технический уровень (EN / RU / AR)
+│   │   └── Детали: уязвимости, PoC, CVSS-рейтинги, имена эксплойтов
+│   ├── 📋 Management                 — уровень менеджмента (EN / RU / AR)
+│   │   └── Детали: риски, сроки, ответственные, KPI безопасности
+│   └── 🏛️ Executive                  — уровень руководства (EN / RU / AR)
+│       └── Детали: сводка, бизнес-риски, рекомендации для C-level
 │
-├── 📘 Whitepapers          (EN / RU / AR)
+├── 🕷️ ZAP Reports                    — OWASP ZAP (Zed Attack Proxy)
+│   │                                   Web Application Security Scanner
+│   ├── 📊 Comprehensive              — полный отчёт (EN / RU / AR)
+│   │   └── Все найденные уязвимости, описания, доказательства, CWE/CVE
+│   ├── 🛠️ Technical                  — технический (EN / RU / AR)
+│   │   └── HTTP-запросы, параметры, заголовки, типы атак (XSS, SQLi, ...)
+│   ├── 📋 Management                 — управленческий (EN / RU / AR)
+│   │   └── Приоритеты устранения, сроки, ответственные команды
+│   └── 🏛️ Executive                  — исполнительный (EN / RU / AR)
+│       └── Краткое резюме для руководства, общий уровень риска
 │
-├── 🔒 Privacy Policy
+├── 🔍 Nikto Reports                  — Nikto Web Server Scanner
+│   │                                   Сканер веб-серверов и конфигураций
+│   └── 📊 Comprehensive              — полный отчёт (EN / RU / AR)
+│       └── Устаревшее ПО, небезопасные заголовки, открытые директории,
+│           конфигурационные ошибки, опасные HTTP-методы
+│
+├── 🔐 SSLScan Reports                — SSLScan / SSL/TLS Security Scanner
+│   │                                   Анализ конфигурации SSL/TLS
+│   └── 📋 Report                     — отчёт (RU)
+│       └── Слабые шифры, истёкшие сертификаты, поддерживаемые протоколы,
+│           уязвимости POODLE / BEAST / Heartbleed
+│
+├── 📘 Whitepapers                    — Вводные документы (EN / RU / AR)
+│   └── Методология аудита, стандарты (OWASP, NIST, ISO 27001), RoE
+│
+├── 🔒 Privacy Policy                 — Политика конфиденциальности (RU)
 │
 └── 📄 Licenses
-    ├── Documentation License (CC BY-NC 4.0)
-    └── Trademarks            (EN / RU / AR)
+    ├── Documentation License (CC BY-NC 4.0)   (EN / RU / AR)
+    └── Trademarks                              (EN / RU / AR)
 ```
 
 ---
