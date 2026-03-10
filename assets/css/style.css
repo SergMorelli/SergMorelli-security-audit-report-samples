@@ -23,9 +23,33 @@ a:hover {
 
 /* === GLOBAL RED SCAN WAVE (behind everything) === */
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     position: relative;
     overflow-x: hidden;
+}
+
+/* === RESPONSIVE CONTENT ELEMENTS === */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+pre {
+    overflow-x: auto;
+    max-width: 100%;
+    white-space: pre;
+    -webkit-overflow-scrolling: touch;
+}
+
+table {
+    max-width: 100%;
+    overflow-x: auto;
+    display: block;
 }
 
 body::before {
@@ -210,6 +234,14 @@ body::after {
 
 /* Mobile layout */
 @media (max-width: 720px) {
+
+    .container-wrap {
+        padding: 4px;
+    }
+
+    .container {
+        padding: 16px;
+    }
 
     .nav-toggle {
         display: flex;
