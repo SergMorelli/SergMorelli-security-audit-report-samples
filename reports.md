@@ -18,9 +18,9 @@ Intended for engineers, system administrators, and SOC analysts.
 Focus: detailed findings, CVE references, commands, configurations, and scripts.
 
 ### 🔗 Documents
-- [English](reports/technical/en/README.md)
-- [Русская версия](reports/technical/ru/README.md)
-- [النسخة العربية](reports/technical/ar/README.md)
+- [English]({{ site.baseurl }}/reports/technical/en/)
+- [Русская версия]({{ site.baseurl }}/reports/technical/ru/)
+- [النسخة العربية]({{ site.baseurl }}/reports/technical/ar/)
 
 ---
 
@@ -30,9 +30,9 @@ Intended for IT and security managers, project leads.
 Focus: risk matrix, prioritization (P0–P3), compliance references, and remediation timelines.
 
 ### 🔗 Documents
-- [English](reports/management/en/README.md)
-- [Русская версия](reports/management/ru/README.md)
-- [النسخة العربية](reports/management/ar/README.md)
+- [English]({{ site.baseurl }}/reports/management/en/)
+- [Русская версия]({{ site.baseurl }}/reports/management/ru/)
+- [النسخة العربية]({{ site.baseurl }}/reports/management/ar/)
 
 ---
 
@@ -42,9 +42,9 @@ Intended for CEOs, CTOs, CISOs, and board members.
 Focus: business risks, financial impact, ROI of security investments, and strategic KPIs.
 
 ### 🔗 Documents
-- [English](reports/executive/en/README.md)
-- [Русская версия](reports/executive/ru/README.md)
-- [النسخة العربية](reports/executive/ar/README.md)
+- [English]({{ site.baseurl }}/reports/executive/en/)
+- [Русская версия]({{ site.baseurl }}/reports/executive/ru/)
+- [النسخة العربية]({{ site.baseurl }}/reports/executive/ar/)
 
 --- 
 
@@ -52,33 +52,33 @@ Focus: business risks, financial impact, ROI of security investments, and strate
 
 ## 📚 Comprehensive Reports
 
-- 🇷🇺 [RU](zap-reports/comprehensive/ru/)  |    - 🇬🇧 [EN](zap-reports/comprehensive/en/)  |   - 🇸🇦 [AR](zap-reports/comprehensive/ar/)  |
+- 🇷🇺 [RU]({{ site.baseurl }}/zap-reports/comprehensive/ru/)  |    - 🇬🇧 [EN]({{ site.baseurl }}/zap-reports/comprehensive/en/)  |   - 🇸🇦 [AR]({{ site.baseurl }}/zap-reports/comprehensive/ar/)  |
 
 
 
 ## 🛠 Technical Reports
-- 🇷🇺 [RU](zap-reports/technical/ru/) 
-- 🇬🇧 [EN](zap-reports/technical/en/) 
-- 🇸🇦 [AR](zap-reports/technical/ar/) 
+- 🇷🇺 [RU]({{ site.baseurl }}/zap-reports/technical/ru/) 
+- 🇬🇧 [EN]({{ site.baseurl }}/zap-reports/technical/en/) 
+- 🇸🇦 [AR]({{ site.baseurl }}/zap-reports/technical/ar/) 
 
 
 ## 📋 Management Reports
 
-- 🇷🇺 [RU](zap-reports/management/ru/)
-- 🇬🇧 [EN](zap-reports/management/en/) 
-- 🇸🇦 [AR](zap-reports/management/ar/)
+- 🇷🇺 [RU]({{ site.baseurl }}/zap-reports/management/ru/)
+- 🇬🇧 [EN]({{ site.baseurl }}/zap-reports/management/en/) 
+- 🇸🇦 [AR]({{ site.baseurl }}/zap-reports/management/ar/)
 
 ## 🏛 Executive Reports
 
-- 🇷🇺 [RU](zap-reports/executive/ru/)
-- 🇬🇧 [EN](zap-reports/executive/en/) 
-- 🇸🇦 [AR](zap-reports/executive/ar/)
+- 🇷🇺 [RU]({{ site.baseurl }}/zap-reports/executive/ru/)
+- 🇬🇧 [EN]({{ site.baseurl }}/zap-reports/executive/en/) 
+- 🇸🇦 [AR]({{ site.baseurl }}/zap-reports/executive/ar/)
 
 # 🕷️ Nikto Scan Report / Отчёт сканирования Nikto / تقرير مسح نيكتو
 
 ## 📚 Comprehensive Reports
 
-  🇷🇺 [RU](nikto-report/comprehensive/ru/)  |        |  🇬🇧 [EN](nikto-report/comprehensive/en/)  |       | 🇸🇦 [AR](nikto-report/comprehensive/ar/)  |
+  🇷🇺 [RU]({{ site.baseurl }}/nikto-report/comprehensive/ru/)  |        |  🇬🇧 [EN]({{ site.baseurl }}/nikto-report/comprehensive/en/)  |       | 🇸🇦 [AR]({{ site.baseurl }}/nikto-report/comprehensive/ar/)  |
 
   
 ---
