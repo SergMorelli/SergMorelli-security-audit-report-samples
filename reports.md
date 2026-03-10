@@ -7,10 +7,18 @@ permalink: /reports/
 
 # 🔐 Security Audit Report Samples  
 ### Multilingual RU / EN / AR  
+--- 
 
+# Nmap
+# SSLScan
+# OpenSSL
+# OWASP ZAP
+# Nikto
 ---
 
 # 🛠 Reports / Отчёты / التقارير
+
+
 
 ## 🛠️ Technical Report
 
