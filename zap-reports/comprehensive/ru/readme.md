@@ -17,4 +17,4 @@ ar — арабоязычная версия
 Подходят для изучения структуры профессиональных отчётов или использования в качестве шаблонов.
 
 
-# [.PDF](/zapreports-comprehensive-ru.pdf)
+# [.PDF](zapreports-comprehensive-ru.pdf)

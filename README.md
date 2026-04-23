@@ -108,5 +108,5 @@ This project uses a multi‑license model:
 - Code samples (if any): MIT License
 
 Full license texts (EN/RU/AR):  
-https://github.com/SergMorelli/SergMorelli-security-audit-report-samples/tree/main/licenses
+[licenses/](licenses/)
 

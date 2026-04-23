@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Tailwind -->
+  <link rel="stylesheet" href="/assets/css/output.css">
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body class="bg-black text-gray-200 font-mono">
+
+<!-- 🔴 NAVBAR -->
+<header class="fixed w-full z-50 bg-black/70 backdrop-blur border-b border-red-500/20">
+  <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+
+    <div class="text-xl text-cyan-400 font-bold tracking-widest">
+      DATADEF
+    </div>
+
+    <nav class="space-x-6 text-sm">
+      <a href="/" class="hover:text-cyan-400 ">Home</a>
+      <a href="/reports" class="hover:text-cyan-400 ">Reports</a>
+      <a href="/lab" class="hover:text-cyan-400 ">Lab</a>
+      <a href="/documents" class="hover:text-cyan-400 ">Documents</a>
+      <a href="/about" class="hover:text-cyan-400 text-cyan-400">About</a>
+    </nav>
+
+  </div>
+</header>
+
+<main class="pt-24">
+  <section class="pt-32 pb-20 text-center">
+  <h1 class="text-4xl text-cyan-400 mb-6">About</h1>
+  <p class="text-gray-400">Security specialist focused on penetration testing and infrastructure defense.</p>
+</section>
+
+
+</main>
+
+<!-- 📊 DASHBOARD PREVIEW -->
+<section class="py-20 bg-black border-t border-gray-800">
+
+  <div class="max-w-6xl mx-auto px-4 text-center">
+
+    <h2 class="text-3xl text-cyan-400 mb-10" data-aos="fade-up">
+      Attack Activity Overview
+    </h2>
+
+    <canvas id="attackChart" height="100" data-aos="fade-up"></canvas>
+
+  </div>
+
+</section>
+
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+AOS.init({
+  duration: 800,
+  once: true
+});
+
+const ctx = document.getElementById('attackChart');
+
+new Chart(ctx, {
+  type: 'line',
+  data: {
+    labels: ['00:00','04:00','08:00','12:00','16:00','20:00'],
+    datasets: [{
+      label: 'Detected Attacks',
+      data: [5, 12, 9, 18, 7, 14],
+      borderColor: '#00f0ff',
+      tension: 0.4
+    }]
+  },
+  options: {
+    plugins: {
+      legend: {
+        labels: {
+          color: '#ccc'
+        }
+      }
+    },
+    scales: {
+      x: {
+        ticks: { color: '#666' }
+      },
+      y: {
+        ticks: { color: '#666' }
+      }
+    }
+  }
+});
+</script>
+
+</body>
+</html>
+
